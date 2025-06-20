@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<title>Explore Fuzhou City with Eugenie</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1><center>Booking Form</center></h1>
+</header>
+<nav>
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="destination.html">Destination</a></li>
+  <li><a href="tips.html">Tips</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a class="active" href="booking.html">Booking</a></li>
+  <li><a href="aboutme.html">About Me</a></li>
+</ul>
+</nav>
+<main style="display:flex;justify-content:center;">
+<form id="myform">
+
+<fieldset>
+<legend>Step 1:Tourist Information</legend>
+<p>Full Name:<br>
+<input type="text" name="fn"></p>
+<p>Email:<br>
+<input type="email" type="email" placeholder="example@domain.com"></p>
+<p>Phone:</p>
+<input type="tel" name="phone" placeholder="+68">
+<p>Nationality</p>
+<input type="text" name="nation">
+</fieldset>
+
+<fieldset>
+<legend>Step 2:Tour Details</legend>
+<p>Tour Date:</p>
+<input name="date" type="date">
+<p>Group Size:</p>
+<input type="text" name="size">
+<p>Tour Duration:</p>
+<select name="country">
+     <option value="0">Select duration</option>
+     <option value="1">1 Day</option>
+	 <option value="2">2 Day</option>
+	 <option value="3">3 Day</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Step 3:Places to Visit</legend>
+<p>Select attractions:<br>
+<input type="checkbox" name="place" value="sanfangqixiang">Sanfang Qixiang<br>
+<input type="checkbox" name="place" value="linzexutemple">Ancestral Hall and Museum of Lin Zexu<br>
+<input type="checkbox" name="place" value="yongquan">Yongquan & Gushan Scenic Area<br></p><br>
+<p>Special Requests:
+<textarea name="reauests" cols=30 rows=8></textarea><br></p>
+</fieldset>
+
+<input type="submit" value="BOOK TOUR">
+</form>
+</main>
+<footer><p>&copy2025 Eugenie Blog</p></footer>
+</body>
+</html>
